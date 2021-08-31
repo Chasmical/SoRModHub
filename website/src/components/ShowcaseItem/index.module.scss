@@ -90,11 +90,17 @@ html[data-theme="dark"] {
 .button-moddb::before {
   background-image: url(./assets/moddb.png);
 }
+.button-nexusmods::before {
+  background-image: url(./assets/nexusmods.png);
+}
 html[data-theme="dark"] {
   .button-gamebanana::before {
     filter: none;
   }
   .button-moddb::before {
+    filter: none;
+  }
+  .button-nexusmods::before {
     filter: none;
   }
 }

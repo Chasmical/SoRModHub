@@ -12,6 +12,7 @@ const list: ModProps[] = [
       {type:"direct", link:"https://github.com/Abbysssal/RogueLibs/releases/latest"},
       {type:"gamebanana", link:"https://gamebanana.com/mods/54650"},
       {type:"moddb", link:"https://www.moddb.com/mods/roguelibs"},
+      {type:"nexusmods", link:"https://www.nexusmods.com/streetsofrogue/mods/13"},
     ],
     tags: ["library"],
   },
