@@ -1,5 +1,5 @@
 import React from 'react';
-import { Props as ModProps } from '../components/ShowcaseItem';
+import { Props as ModProps } from './components/ShowcaseItem';
 
 const list: ModProps[] = [
   {

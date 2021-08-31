@@ -10,7 +10,7 @@ import LogoDark from '@site/static/img/logo-dark.png';
 import Translate, { translate } from '@docusaurus/Translate';
 
 import ShowcaseItem from '@site/src/components/ShowcaseItem';
-import ModList from './mods';
+import ModList from '../mods';
 
 function HomepageHeader() {
   const { isDarkTheme } = useThemeContext();
