@@ -11,7 +11,7 @@ const list: ModProps[] = [
       {type:"website", link:"https://abbysssal.github.io/RogueLibs"},
       {type:"direct", link:"https://github.com/Abbysssal/RogueLibs/releases/latest"},
       {type:"gamebanana", link:"https://gamebanana.com/mods/54650"},
-      {type:"moddb", link:"https://www.moddb.com/mods/roguelibs-v211"},
+      {type:"moddb", link:"https://www.moddb.com/mods/roguelibs"},
     ],
     tags: ["library"],
   },

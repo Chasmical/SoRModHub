@@ -30,8 +30,8 @@ module.exports = {
       },
       items: [
         {
-          to: 'https://github.com/Abbysssal/SoR-ModHub/edit/main/website/src/mods.tsx',
-          label: 'Add',
+          to: 'https://github.com/Abbysssal/SoRModHub/edit/main/website/src/mods.tsx',
+          label: 'Add your mod!',
           position: 'left',
         },
         {
