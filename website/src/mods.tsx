@@ -49,7 +49,7 @@ const list: ModProps[] = [
     buttons: [
       {type:"github", link:"https://github.com/zTBBz/TBB"},
       {type:"website", link:"https://zTBBz.github.io/TBB"},
-      {type:"direct", link:"https://github.com/zTBBz/TBB/releases/download/0.0.1/TBB.dll"},
+      {type:"direct", link:"https://github.com/zTBBz/TBB/releases/download/0.0.2/TBB.dll"},
     ],
     tags: ["mod", "items", "traits", "sounds"],
   },
@@ -76,6 +76,23 @@ const list: ModProps[] = [
     description: "Replaces only four sprites. Scary guns!",
     buttons: [
       {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/876516669814616104/SpritesOfBune.spritepack"},
+    ],
+    tags: ["spritepack", "items", "sprites"],
+  },
+  {
+    title: "Custom Content Utilities v0.1.0 - Designer Edition",
+    description: "CCU aims to address SoR's content-creating limitations, giving more power to custom content designers, while keeping the player's experience un-cluttered with designer tools.",
+    buttons: [
+      {type:"github", link:"https://github.com/Freiling87/CCU"},
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/877909914876510218/CCU_0.1.0.zip"},
+    ],
+    tags: ["spritepack", "items", "sprites"],
+  },
+  {
+    title: "SOR Community's Hi-Res Overhaul (WIP)",
+    description: "Back before Abbysssal had fully figured out TK2D sprites, we had organized a community overhaul of Hi-Res sprites. This only replaces about 30-ish sprites so far, mostly items.",
+    buttons: [
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/878281486225264720/HiResOverhaul.spritepack"},
     ],
     tags: ["spritepack", "items", "sprites"],
   },
