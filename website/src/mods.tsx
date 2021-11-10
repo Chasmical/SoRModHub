@@ -26,8 +26,8 @@ const list: ModProps[] = [
       </span>
     ),
     buttons: [
-      {type:"github", link:"https://github.com/Abbysssal/SpritePackLoader"},
-      {type:"direct", link:"https://github.com/Abbysssal/SpritePackLoader/releases/download/v0.3.0/SpritePackLoader.dll"},
+      {type:"github", link:"https://github.com/Abbysssal/RogueLibs"},
+      {type:"direct", link:"https://github.com/Abbysssal/RogueLibs/releases/download/v3.1.3/RogueLibsCore.Test.dll"},
     ],
     tags: ["mod", "items", "abilities", "traits", "effects"],
   },
