@@ -27,7 +27,7 @@ const list: ModProps[] = [
     ),
     buttons: [
       {type:"github", link:"https://github.com/Abbysssal/RogueLibs"},
-      {type:"direct", link:"https://github.com/Abbysssal/RogueLibs/releases/download/v3.1.3/RogueLibsCore.Test.dll"},
+      {type:"direct", link:"https://github.com/Abbysssal/RogueLibs/releases/download/v3.1.4/RogueLibsCore.Test.dll"},
     ],
     tags: ["mod", "items", "abilities", "traits", "effects"],
   },
