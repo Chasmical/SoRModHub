@@ -97,6 +97,28 @@ const list: ModProps[] = [
     ],
     tags: ["spritepack", "items", "sprites"],
   },
+  {
+    banner: "https://github.com/Freiling87/Sorquol/blob/master/Sorquol/Images/Sorquol_512x512.png?raw=true",
+    title: "Sorquol - Streets of Rogue Quality of Life",
+    description: "Sorquol is a quality of life mod for the custom content editors. Right now, it's mainly hotkeys for the Chunk Editor.",
+    buttons: [
+      {type:"github", link:"https://github.com/Freiling87/Sorquol"},
+      {type:"gamebanana", link:"https://gamebanana.com/mods/335156"},
+      {type:"direct", link:"https://gamebanana.com/dl/691177"},
+    ],
+    tags: ["mod", "tweaks"],
+  },
+  {
+    banner: "https://github.com/cf27n/FollowerPlus/blob/main/FollowerPlusIcon.png?raw=true",
+    title: "FollowerPlus",
+    description: "A small plugin that adds a few more interactive features to create a friendlier follower-oriented playstyle. Currently, it only adds enhanced follower inventory management.",
+    buttons: [
+      {type:"github", link:"https://github.com/cf27n/FollowerPlus"},
+      {type:"gamebanana", link:"https://gamebanana.com/mods/344669"},
+      {type:"direct", link:"https://github.com/cf27n/FollowerPlus/files/7767730/FollowerPlus_1.0.1-alpha.zip"},
+    ],
+    tags: ["mod", "npcs", "ui", "tweaks"],
+  },
 ];
 
 const listV2: ModProps[] = [
