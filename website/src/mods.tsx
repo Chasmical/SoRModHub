@@ -27,7 +27,7 @@ const list: ModProps[] = [
     ),
     buttons: [
       {type:"github", link:"https://github.com/Abbysssal/RogueLibs"},
-      {type:"direct", link:"https://github.com/Abbysssal/RogueLibs/releases/download/v3.1.4/RogueLibsCore.Test.dll"},
+      {type:"direct", link:"https://github.com/Abbysssal/RogueLibs/releases/download/v3.3.0/RogueLibsCore.Test.dll"},
     ],
     tags: ["mod", "items", "abilities", "traits", "effects"],
   },
@@ -119,11 +119,17 @@ const list: ModProps[] = [
     ],
     tags: ["mod", "npcs", "ui", "tweaks"],
   },
-];
-
-const listV2: ModProps[] = [
-
+  {
+    banner: "https://images.gamebanana.com/img/ss/mods/5f61f918c29b1.jpg",
+    title: "Edit Characters Through Description",
+    description: "Allows you add ANY items, traits, abilities and colors to custom characters, even the ones not normally available.",
+    buttons: [
+      {type:"github", link:"https://github.com/Abbysssal/ECTD"},
+      {type:"gamebanana", link:"https://gamebanana.com/mods/54649"},
+      {type:"direct", link:"https://github.com/Abbysssal/ECTD/releases/download/v3.0.0/ECTD.dll"},
+    ],
+    tags: ["mod", "cheats"],
+  },
 ];
 
 export default list;
-export const old = listV2;
