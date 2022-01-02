@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import styles from './index.module.scss';
 
 export type Tag = "spritepack" | "mod" | "library" | "tool"
-  | "items" | "abilities" | "traits" | "effects" | "objects" | "npcs"
+  | "items" | "abilities" | "traits" | "effects" | "objects" | "npcs" | "mutators"
   | "sprites" | "sounds" | "ui" | "cheats" | "tweaks" | "other";
 
 export type Props = {
