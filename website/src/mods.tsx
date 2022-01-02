@@ -130,6 +130,25 @@ const list: ModProps[] = [
     ],
     tags: ["mod", "cheats"],
   },
+  {
+    title: "a Ton of Mutators (aToM)",
+    description: "This mod adds a lot (104) mutators to the game. They are separated into 5 categories.",
+    buttons: [
+      {type:"github", link:"https://github.com/Abbysssal/aToM"},
+      {type:"gamebanana", link:"https://gamebanana.com/mods/54648"},
+      {type:"direct", link:"https://github.com/Abbysssal/aToM/releases/download/v2.0.0/aTonOfMutators.dll"},
+    ],
+    tags: ["mod", "mutators"],
+  },
+  {
+    banner: "https://cdn.discordapp.com/attachments/433748059172896769/927219045101633576/2022-01-02_221709.png",
+    title: "Demolish That Freaking Wall",
+    description: "Tired of that damn wall on the way to your precious Hacker? Well, whatever, just download this mod and that wall will be demolished.",
+    buttons: [
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/433748059172896769/927219194301403217/DemolishThatFreakingWall.dll"},
+    ],
+    tags: ["mod", "tweaks"],
+  },
 ];
 
 export default list;
