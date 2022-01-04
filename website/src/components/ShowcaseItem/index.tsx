@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import clsx from 'clsx';
 import styles from './index.module.scss';
 
-export type Tag = "spritepack" | "mod" | "library" | "tool"
+export type Tag = "spritepack" | "mod" | "library" | "tool" | "story"
   | "items" | "abilities" | "traits" | "effects" | "objects" | "npcs" | "mutators"
-  | "sprites" | "sounds" | "ui" | "cheats" | "tweaks" | "other";
+  | "sprites" | "sounds" | "ui" | "cheats" | "tweaks" | "other" | "innovative";
 
 export type Props = {
   banner?: string | null,
