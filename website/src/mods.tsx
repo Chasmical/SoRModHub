@@ -87,7 +87,7 @@ const list: ModProps[] = [
       {type:"github", link:"https://github.com/Freiling87/CCU"},
       {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/877909914876510218/CCU_0.1.0.zip"},
     ],
-    tags: ["spritepack", "items", "sprites"],
+    tags: ["spritepack", "items", "sprites", "innovative"],
   },
   {
     title: "SOR Community's Hi-Res Overhaul (WIP)",
@@ -117,7 +117,7 @@ const list: ModProps[] = [
       {type:"gamebanana", link:"https://gamebanana.com/mods/344669"},
       {type:"direct", link:"https://github.com/cf27n/FollowerPlus/files/7767730/FollowerPlus_1.0.1-alpha.zip"},
     ],
-    tags: ["mod", "npcs", "ui", "tweaks"],
+    tags: ["mod", "npcs", "ui", "tweaks", "innovative"],
   },
   {
     banner: "https://images.gamebanana.com/img/ss/mods/5f61f918c29b1.jpg",
@@ -148,6 +148,16 @@ const list: ModProps[] = [
       {type:"direct", link:"https://cdn.discordapp.com/attachments/433748059172896769/927219194301403217/DemolishThatFreakingWall.dll"},
     ],
     tags: ["mod", "tweaks"],
+  },
+  {
+    banner: "https://cdn.discordapp.com/attachments/766891245141622804/927781262855385128/SPOILER_DefeatingTheResistance.png",
+    title: "Chaos at Home Base",
+    description: "Includes an incredible fight, cool cutscenes and a new ending! This is one of the most extensive mods I have ever made.",
+    buttons: [
+      {type:"gamebanana", link:"https://gamebanana.com/mods/348074"},
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/433748059172896769/927599350056644658/ChaosAtHomeBase.dll"},
+    ],
+    tags: ["mod", "story", "innovative"],
   },
 ];
 
