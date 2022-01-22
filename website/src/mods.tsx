@@ -27,7 +27,7 @@ const list: ModProps[] = [
     ),
     buttons: [
       {type:"github", link:"https://github.com/Abbysssal/RogueLibs"},
-      {type:"direct", link:"https://github.com/Abbysssal/RogueLibs/releases/download/v3.3.0/RogueLibsCore.Test.dll"},
+      {type:"direct", link:"https://github.com/Abbysssal/RogueLibs/releases/download/v3.4.1/RogueLibsCore.Test.dll"},
     ],
     tags: ["mod", "items", "abilities", "traits", "effects"],
   },
@@ -59,7 +59,7 @@ const list: ModProps[] = [
     description: "Allows you to create and load custom spritepacks to replace vanilla textures.",
     buttons: [
       {type:"github", link:"https://github.com/Abbysssal/SpritePackLoader"},
-      {type:"direct", link:"https://github.com/Abbysssal/SpritePackLoader/releases/download/v0.3.0/SpritePackLoader.dll"},
+      {type:"direct", link:"https://github.com/Abbysssal/SpritePackLoader/releases/download/v1.0.1/SpritePackLoader.dll"},
     ],
     tags: ["mod", "spritepack", "sprites", "ui"],
   },
@@ -68,7 +68,7 @@ const list: ModProps[] = [
     title: "Sidi's Resprite Project",
     description: "Replaces vanilla sprites (so far only item sprites) with more bulky and prettier ones.",
     buttons: [
-      {type:"direct", link:"https://cdn.discordapp.com/attachments/766890919768621058/852479368776384522/Sidis_resprite_project.spritepack"},
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/433748059172896769/934351596773593099/Sidis_resprite_project.spritepack"},
     ],
     tags: ["spritepack", "items", "sprites"],
   },
