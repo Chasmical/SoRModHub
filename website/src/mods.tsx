@@ -68,7 +68,7 @@ const list: ModProps[] = [
     title: "Sidi's Resprite Project",
     description: "Replaces vanilla sprites (so far only item sprites) with more bulky and prettier ones.",
     buttons: [
-      {type:"direct", link:"https://cdn.discordapp.com/attachments/433748059172896769/934351596773593099/Sidis_resprite_project.spritepack"},
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453258186514890772/940221386037796894/Sidis_resprite_project.spritepack"},
     ],
     tags: ["spritepack", "items", "sprites"],
   },
