@@ -3,13 +3,13 @@ import { Props as ModProps } from './components/ShowcaseItem';
 
 const list: ModProps[] = [
   {
-    banner: "https://github.com/Abbysssal/RogueLibs/blob/main/img/RogueLibs.png?raw=true",
+    banner: "https://github.com/SugarBarrel/RogueLibs/blob/main/img/RogueLibs.png?raw=true",
     title: "RogueLibs",
     description: "A really important library that is required for almost all mods. A must-have.",
     buttons: [
-      {type:"github", link:"https://github.com/Abbysssal/RogueLibs"},
-      {type:"website", link:"https://abbysssal.github.io/RogueLibs"},
-      {type:"direct", link:"https://github.com/Abbysssal/RogueLibs/releases/latest"},
+      {type:"github", link:"https://github.com/SugarBarrel/RogueLibs"},
+      {type:"website", link:"https://sugarbarrel.github.io/RogueLibs"},
+      {type:"direct", link:"https://github.com/SugarBarrel/RogueLibs/releases/latest"},
       {type:"gamebanana", link:"https://gamebanana.com/mods/54650"},
       {type:"moddb", link:"https://www.moddb.com/mods/roguelibs"},
       {type:"nexusmods", link:"https://www.nexusmods.com/streetsofrogue/mods/13"},
@@ -26,8 +26,8 @@ const list: ModProps[] = [
       </span>
     ),
     buttons: [
-      {type:"github", link:"https://github.com/Abbysssal/RogueLibs"},
-      {type:"direct", link:"https://github.com/Abbysssal/RogueLibs/releases/download/v3.4.1/RogueLibsCore.Test.dll"},
+      {type:"github", link:"https://github.com/SugarBarrel/RogueLibs"},
+      {type:"direct", link:"https://github.com/SugarBarrel/RogueLibs/releases/latest/download/RogueLibsCore.Test.dll"},
     ],
     tags: ["mod", "items", "abilities", "traits", "effects"],
   },
@@ -39,7 +39,7 @@ const list: ModProps[] = [
         {"Adds a lot of items and traits that greatly complement Streets of Rogue's sometimes boring gameplay. With cool sound effects."}
         <br/>
         {"Successor of "}
-        <a href="https://github.com/Abbysssal/aToI">aToI</a>
+        <a href="https://github.com/SugarBarrel/aToI">aToI</a>
         {", "}
         <a href="https://github.com/zTBBz/SMaD">SMaD</a>
         {" and "}
@@ -50,7 +50,7 @@ const list: ModProps[] = [
     buttons: [
       {type:"github", link:"https://github.com/zTBBz/TBB"},
       {type:"website", link:"https://zTBBz.github.io/TBB"},
-      {type:"direct", link:"https://github.com/zTBBz/TBB/releases/download/0.0.2/TBB.dll"},
+      {type:"direct", link:"https://github.com/zTBBz/TBB/releases/latest/download/TBB.dll"},
     ],
     tags: ["mod", "items", "traits", "sounds"],
   },
@@ -58,8 +58,8 @@ const list: ModProps[] = [
     title: "SpritePackLoader",
     description: "Allows you to create and load custom spritepacks to replace vanilla textures.",
     buttons: [
-      {type:"github", link:"https://github.com/Abbysssal/SpritePackLoader"},
-      {type:"direct", link:"https://github.com/Abbysssal/SpritePackLoader/releases/download/v1.0.1/SpritePackLoader.dll"},
+      {type:"github", link:"https://github.com/SugarBarrel/SpritePackLoader"},
+      {type:"direct", link:"https://github.com/SugarBarrel/SpritePackLoader/releases/latest/download/SpritePackLoader.dll"},
     ],
     tags: ["mod", "spritepack", "sprites", "ui"],
   },
@@ -70,7 +70,7 @@ const list: ModProps[] = [
     buttons: [
       {type:"direct", link:"https://cdn.discordapp.com/attachments/766891245141622804/940224504817414194/Sidis_resprite_project.spritepack"},
     ],
-    tags: ["spritepack", "items", "sprites"],
+    tags: ["spritepack", "items", "objects", "npcs", "sprites", "innovative"],
   },
   {
     title: "Sprites of Bune",
@@ -124,9 +124,9 @@ const list: ModProps[] = [
     title: "Edit Characters Through Description",
     description: "Allows you add ANY items, traits, abilities and colors to custom characters, even the ones not normally available.",
     buttons: [
-      {type:"github", link:"https://github.com/Abbysssal/ECTD"},
+      {type:"github", link:"https://github.com/SugarBarrel/ECTD"},
       {type:"gamebanana", link:"https://gamebanana.com/mods/54649"},
-      {type:"direct", link:"https://github.com/Abbysssal/ECTD/releases/download/v3.0.0/ECTD.dll"},
+      {type:"direct", link:"https://github.com/SugarBarrel/ECTD/releases/latest/download/ECTD.dll"},
     ],
     tags: ["mod", "cheats"],
   },
@@ -134,9 +134,9 @@ const list: ModProps[] = [
     title: "a Ton of Mutators (aToM)",
     description: "This mod adds a lot (104) mutators to the game. They are separated into 5 categories.",
     buttons: [
-      {type:"github", link:"https://github.com/Abbysssal/aToM"},
+      {type:"github", link:"https://github.com/SugarBarrel/aToM"},
       {type:"gamebanana", link:"https://gamebanana.com/mods/54648"},
-      {type:"direct", link:"https://github.com/Abbysssal/aToM/releases/download/v2.0.0/aTonOfMutators.dll"},
+      {type:"direct", link:"https://github.com/SugarBarrel/aToM/releases/latest/download/aTonOfMutators.dll"},
     ],
     tags: ["mod", "mutators"],
   },
@@ -156,6 +156,14 @@ const list: ModProps[] = [
     buttons: [
       {type:"gamebanana", link:"https://gamebanana.com/mods/348074"},
       {type:"direct", link:"https://cdn.discordapp.com/attachments/433748059172896769/927599350056644658/ChaosAtHomeBase.dll"},
+    ],
+    tags: ["mod", "story", "innovative"],
+  },
+  {
+    title: "Bullet Breaker Challenge",
+    description: "Ever wanted to improve your shooting accuracy and reaction speed in Streets of Rogue? Then this mod is for you! Your goal is to destroy your opponent's bullets mid-air. If the bullets are too fast for you, there's also a Practice mode, that halves their speed.",
+    buttons: [
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/936207622179287050/BulletBreakerChallenge.dll"},
     ],
     tags: ["mod", "story", "innovative"],
   },

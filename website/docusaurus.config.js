@@ -1,12 +1,12 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Mod Hub",
-  url: 'https://Abbysssal.github.com',
+  url: 'https://SugarBarrel.github.com',
   baseUrl: '/SoRModHub/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Abbysssal',
+  organizationName: 'SugarBarrel',
   projectName: 'SoRModHub',
   plugins: ['docusaurus-plugin-sass'],
   themeConfig: {
@@ -18,7 +18,7 @@ module.exports = {
     announcementBar: {
       id: 'star',
       content:
-        '<span style="font-size: 1rem;">⭐️ If you like ModHub, give it a star on <a target="_blank" href="https://github.com/Abbysssal/SoRModHub">GitHub</a>! ⭐️</span>',
+        '<span style="font-size: 1rem;">⭐️ If you like ModHub, give it a star on <a target="_blank" href="https://github.com/SugarBarrel/SoRModHub">GitHub</a>! ⭐️</span>',
     },
     navbar: {
       hideOnScroll: true,
@@ -30,12 +30,12 @@ module.exports = {
       },
       items: [
         {
-          to: 'https://github.com/Abbysssal/SoRModHub/edit/main/website/src/mods.tsx',
+          to: 'https://github.com/SugarBarrel/SoRModHub/edit/main/website/src/mods.tsx',
           label: 'Add your mod!',
           position: 'left',
         },
         {
-          href: 'https://github.com/Abbysssal/SoRModHub',
+          href: 'https://github.com/SugarBarrel/SoRModHub',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -68,7 +68,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Abbysssal/SoRModHub',
+              href: 'https://github.com/SugarBarrel/SoRModHub',
             },
           ],
         },
@@ -83,12 +83,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/Abbysssal/SoRModHub/edit/main/website/',
+            'https://github.com/SugarBarrel/SoRModHub/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/Abbysssal/SoRModHub/edit/main/website/blog/',
+            'https://github.com/SugarBarrel/SoRModHub/edit/main/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
