@@ -2,9 +2,9 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import useThemeContext from '@theme/hooks/useThemeContext';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { useColorMode } from '@docusaurus/theme-common';
 import Logo from '@site/static/img/logo.png';
 import LogoDark from '@site/static/img/logo-dark.png';
 import Translate, { translate } from '@docusaurus/Translate';
@@ -13,7 +13,7 @@ import ShowcaseItem from '@site/src/components/ShowcaseItem';
 import ModList from '../mods';
 
 function HomepageHeader() {
-  const { isDarkTheme } = useThemeContext();
+  const { isDarkTheme } = useColorMode();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)} style={{padding:"2rem 0"}}>
       <div className="container">
@@ -31,7 +31,7 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title}`}
