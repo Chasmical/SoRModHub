@@ -167,6 +167,16 @@ const list: ModProps[] = [
     ],
     tags: ["mod", "story", "innovative"],
   },
+  {
+    banner: "https://images.gamebanana.com/img/ss/mods/60d3c4459febd.jpg",
+    title: "NPC Prefixes V",
+    description: "This mod provides NPC prefixes, a bunch of passive items, and some prefix-related mutators. Some of the prefixes are ridiculously deadly which will likely increase the game's difficulty.",
+    buttons: [
+      {type:"gamebanana", link:"https://gamebanana.com/mods/298283"},
+      {type:"direct", link:"https://gamebanana.com/dl/751475"},
+    ],
+    tags: ["mod", "items", "traits", "effects", "npcs", "mutators", "innovative"],
+  },
 ];
 
 export default list;
