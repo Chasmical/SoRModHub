@@ -177,6 +177,15 @@ const list: ModProps[] = [
     ],
     tags: ["mod", "items", "traits", "effects", "npcs", "mutators", "innovative"],
   },
+  {
+    banner: "https://cdn.discordapp.com/attachments/453259227797127188/954336805212262446/2022-03-18_180414.png",
+    title: "Abbysssal's Paint.net SpritePack",
+    description: "Replaces all item sprites in the game with the ones carefully drawn by hand by a professional*, in Paint.net. (* ᵖʳᵒᶠᵉˢˢᶦᵒⁿᵃˡ ᵖʳᵒᵍʳᵃᵐᵐᵉʳ)",
+    buttons: [
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/954336805455560754/Abbysssals_Paint.net.spritepack"},
+    ],
+    tags: ["spritepack", "items", "sprites"],
+  },
 ];
 
 export default list;
