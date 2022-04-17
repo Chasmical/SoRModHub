@@ -186,6 +186,14 @@ const list: ModProps[] = [
     ],
     tags: ["spritepack", "items", "sprites"],
   },
+  {
+    title: "Among Us in SoR",
+    description: "The impostors are among us.",
+    buttons: [
+      {type:"direct", link:"https://github.com/SugarBarrel/AmongUsSoR/releases/download/v0.4.0/AmongUsSoR.dll"},
+    ],
+    tags: ["mod", "abilities"],
+  },
 ];
 
 export default list;
