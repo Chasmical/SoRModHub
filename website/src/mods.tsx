@@ -81,15 +81,6 @@ const list: ModProps[] = [
     tags: ["spritepack", "items", "sprites"],
   },
   {
-    title: "Custom Content Utilities v0.1.0 - Designer Edition",
-    description: "CCU aims to address SoR's content-creating limitations, giving more power to custom content designers, while keeping the player's experience un-cluttered with designer tools.",
-    buttons: [
-      {type:"github", link:"https://github.com/Freiling87/CCU"},
-      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/877909914876510218/CCU_0.1.0.zip"},
-    ],
-    tags: ["spritepack", "items", "sprites", "innovative"],
-  },
-  {
     title: "SOR Community's Hi-Res Overhaul (WIP)",
     description: "Back before Abbysssal had fully figured out TK2D sprites, we had organized a community overhaul of Hi-Res sprites. This only replaces about 30-ish sprites so far, mostly items.",
     buttons: [
@@ -106,7 +97,7 @@ const list: ModProps[] = [
       {type:"gamebanana", link:"https://gamebanana.com/mods/335156"},
       {type:"direct", link:"https://gamebanana.com/dl/691177"},
     ],
-    tags: ["mod", "tweaks"],
+    tags: ["mod", "ui", "tweaks"],
   },
   {
     banner: "https://github.com/cf27n/FollowerPlus/blob/main/FollowerPlusIcon.png?raw=true",
@@ -165,7 +156,7 @@ const list: ModProps[] = [
     buttons: [
       {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/936207622179287050/BulletBreakerChallenge.dll"},
     ],
-    tags: ["mod", "story", "innovative"],
+    tags: ["mod", "mutators"],
   },
   {
     banner: "https://images.gamebanana.com/img/ss/mods/60d3c4459febd.jpg",
@@ -194,6 +185,19 @@ const list: ModProps[] = [
     ],
     tags: ["mod", "abilities"],
   },
+  {
+    title: "SORCE - Streets of Rogue Civil Engineering",
+    description: (<span>
+      {"50+ city-related and visual effects mutators and a couple of shitty traits."}
+      <br/>
+      {"Note: Use the beta branch of RogueLibs - v3.5.0-beta.6 and update BepInEx to 5.4.19."}
+    </span>),
+    buttons: [
+      {type:"github", link:"https://github.com/Freiling87/SORCE"},
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/973265315150589982/Streets_of_Rogue.zip"},
+    ],
+    tags: ["mod", "traits", "mutators", "effects", "objects", "npcs", "sounds", "tweaks", "other", "innovative"],
+  }
 ];
 
 export default list;
