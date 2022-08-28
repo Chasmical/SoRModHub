@@ -73,6 +73,14 @@ const list: ModProps[] = [
     tags: ["spritepack", "items", "objects", "npcs", "sprites", "innovative"],
   },
   {
+    title: "CCU",
+    description: "Tons of tools for custom content design!",
+    buttons: [
+      {type:"direct", link:"https://discord.com/channels/187414758536773632/453259227797127188/1007002994040127578"},
+      ],
+    tags: ["innovative", "mod", "mutators", "npcs", "traits",], 
+  },
+  {
     title: "Sprites of Bune",
     description: "Replaces only four sprites. Scary guns!",
     buttons: [
