@@ -17,19 +17,40 @@ const list: ModProps[] = [
     tags: ["library"],
   },
   {
-    title: "RogueLibs Test Module",
+    title: "SpritePackLoader",
+    description: "Allows you to create and load custom spritepacks to replace vanilla textures.",
+    buttons: [
+      {type:"github", link:"https://github.com/SugarBarrel/SpritePackLoader"},
+      {type:"direct", link:"https://github.com/SugarBarrel/SpritePackLoader/releases/latest/download/SpritePackLoader.dll"},
+    ],
+    tags: ["mod", "spritepack", "sprites", "ui"],
+  },
+  {
+    banner: "https://cdn.discordapp.com/attachments/766890919768621058/852479372656640000/SRP.png",
+    title: "Sidi's Resprite Project",
     description: (
       <span>
-        {"Adds 3 abilities, 9 items, 2 traits and 1 effect."}
-        <br/>
-        {"For testing purposes."}
+        {"Replaces vanilla sprites (ALL items, some objects and MOST characters) with more bulky and prettier ones."}
       </span>
     ),
     buttons: [
-      {type:"github", link:"https://github.com/SugarBarrel/RogueLibs"},
-      {type:"direct", link:"https://github.com/SugarBarrel/RogueLibs/releases/latest/download/RogueLibsCore.Test.dll"},
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453258186514890772/1020749469769289929/Sidis_resprite_project.spritepack"},
     ],
-    tags: ["mod", "items", "abilities", "traits", "effects"],
+    tags: ["spritepack", "items", "objects", "npcs", "sprites", "innovative"],
+  },
+  {
+    banner: "https://cdn.discordapp.com/attachments/453258186514890772/1020755128548081704/unknown.png",
+    title: "Sidi's Resprite Project - Alt Syringes",
+    description: (
+      <span>
+        {"Sidi's Resprite Project addon. "}
+        <b>{"Install along with the main spritepack."}</b>
+      </span>
+    ),
+    buttons: [
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453258186514890772/1020755128040566965/Sidis_resprite_project_alt_syringes.spritepack"},
+    ],
+    tags: ["spritepack", "items", "sprites"],
   },
   {
     banner: "https://github.com/zTBBz/TBB/blob/main/images/Logo.png?raw=true",
@@ -55,30 +76,59 @@ const list: ModProps[] = [
     tags: ["mod", "items", "traits", "sounds"],
   },
   {
-    title: "SpritePackLoader",
-    description: "Allows you to create and load custom spritepacks to replace vanilla textures.",
-    buttons: [
-      {type:"github", link:"https://github.com/SugarBarrel/SpritePackLoader"},
-      {type:"direct", link:"https://github.com/SugarBarrel/SpritePackLoader/releases/latest/download/SpritePackLoader.dll"},
-    ],
-    tags: ["mod", "spritepack", "sprites", "ui"],
-  },
-  {
-    banner: "https://cdn.discordapp.com/attachments/766890919768621058/852479372656640000/SRP.png",
-    title: "Sidi's Resprite Project",
-    description: "Replaces vanilla sprites (all items and some object and character sprites) with more bulky and prettier ones.",
-    buttons: [
-      {type:"direct", link:"https://cdn.discordapp.com/attachments/453258186514890772/1020371417973403678/Sidis_resprite_project.spritepack"},
-    ],
-    tags: ["spritepack", "items", "objects", "npcs", "sprites", "innovative"],
-  },
-  {
     title: "CCU",
     description: "Tons of tools for custom content design!",
     buttons: [
       {type:"direct", link:"https://discord.com/channels/187414758536773632/453259227797127188/1007002994040127578"},
       ],
     tags: ["innovative", "mod", "mutators", "npcs", "traits",], 
+  },
+  {
+    banner: "https://images.gamebanana.com/img/ss/mods/60d3c4459febd.jpg",
+    title: "NPC Prefixes V",
+    description: "This mod provides NPC prefixes, a bunch of passive items, and some prefix-related mutators. Some of the prefixes are ridiculously deadly which will likely increase the game's difficulty.",
+    buttons: [
+      {type:"gamebanana", link:"https://gamebanana.com/mods/298283"},
+      {type:"direct", link:"https://gamebanana.com/dl/751475"},
+    ],
+    tags: ["mod", "items", "traits", "effects", "npcs", "mutators", "innovative"],
+  },
+  {
+    banner: "https://images.gamebanana.com/img/ss/mods/5f61f918c29b1.jpg",
+    title: "Edit Characters Through Description",
+    description: "Allows you add ANY items, traits, abilities and colors to custom characters, even the ones not normally available.",
+    buttons: [
+      {type:"github", link:"https://github.com/SugarBarrel/ECTD"},
+      {type:"gamebanana", link:"https://gamebanana.com/mods/54649"},
+      {type:"direct", link:"https://github.com/SugarBarrel/ECTD/releases/latest/download/ECTD.dll"},
+    ],
+    tags: ["mod", "cheats"],
+  },
+  {
+    banner: "https://github.com/Freiling87/Sorquol/blob/master/Sorquol/Images/Sorquol_512x512.png?raw=true",
+    title: "Sorquol - Streets of Rogue Quality of Life",
+    description: "Sorquol is a quality of life mod for the custom content editors. Right now, it's mainly hotkeys for the Chunk Editor.",
+    buttons: [
+      {type:"github", link:"https://github.com/Freiling87/Sorquol"},
+      {type:"gamebanana", link:"https://gamebanana.com/mods/335156"},
+      {type:"direct", link:"https://gamebanana.com/dl/691177"},
+    ],
+    tags: ["mod", "ui", "tweaks"],
+  },
+  {
+    title: "RogueLibs Test Module",
+    description: (
+      <span>
+        {"Adds 3 abilities, 9 items, 2 traits and 1 effect."}
+        <br/>
+        {"For testing purposes."}
+      </span>
+    ),
+    buttons: [
+      {type:"github", link:"https://github.com/SugarBarrel/RogueLibs"},
+      {type:"direct", link:"https://github.com/SugarBarrel/RogueLibs/releases/latest/download/RogueLibsCore.Test.dll"},
+    ],
+    tags: ["mod", "items", "abilities", "traits", "effects"],
   },
   {
     title: "Sprites of Bune",
@@ -97,17 +147,6 @@ const list: ModProps[] = [
     tags: ["spritepack", "items", "sprites"],
   },
   {
-    banner: "https://github.com/Freiling87/Sorquol/blob/master/Sorquol/Images/Sorquol_512x512.png?raw=true",
-    title: "Sorquol - Streets of Rogue Quality of Life",
-    description: "Sorquol is a quality of life mod for the custom content editors. Right now, it's mainly hotkeys for the Chunk Editor.",
-    buttons: [
-      {type:"github", link:"https://github.com/Freiling87/Sorquol"},
-      {type:"gamebanana", link:"https://gamebanana.com/mods/335156"},
-      {type:"direct", link:"https://gamebanana.com/dl/691177"},
-    ],
-    tags: ["mod", "ui", "tweaks"],
-  },
-  {
     banner: "https://github.com/cf27n/FollowerPlus/blob/main/FollowerPlusIcon.png?raw=true",
     title: "FollowerPlus",
     description: "A small plugin that adds a few more interactive features to create a friendlier follower-oriented playstyle. Currently, it only adds enhanced follower inventory management.",
@@ -117,17 +156,6 @@ const list: ModProps[] = [
       {type:"direct", link:"https://github.com/cf27n/FollowerPlus/files/7767730/FollowerPlus_1.0.1-alpha.zip"},
     ],
     tags: ["mod", "npcs", "ui", "tweaks", "innovative"],
-  },
-  {
-    banner: "https://images.gamebanana.com/img/ss/mods/5f61f918c29b1.jpg",
-    title: "Edit Characters Through Description",
-    description: "Allows you add ANY items, traits, abilities and colors to custom characters, even the ones not normally available.",
-    buttons: [
-      {type:"github", link:"https://github.com/SugarBarrel/ECTD"},
-      {type:"gamebanana", link:"https://gamebanana.com/mods/54649"},
-      {type:"direct", link:"https://github.com/SugarBarrel/ECTD/releases/latest/download/ECTD.dll"},
-    ],
-    tags: ["mod", "cheats"],
   },
   {
     title: "a Ton of Mutators (aToM)",
@@ -165,16 +193,6 @@ const list: ModProps[] = [
       {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/936207622179287050/BulletBreakerChallenge.dll"},
     ],
     tags: ["mod", "mutators"],
-  },
-  {
-    banner: "https://images.gamebanana.com/img/ss/mods/60d3c4459febd.jpg",
-    title: "NPC Prefixes V",
-    description: "This mod provides NPC prefixes, a bunch of passive items, and some prefix-related mutators. Some of the prefixes are ridiculously deadly which will likely increase the game's difficulty.",
-    buttons: [
-      {type:"gamebanana", link:"https://gamebanana.com/mods/298283"},
-      {type:"direct", link:"https://gamebanana.com/dl/751475"},
-    ],
-    tags: ["mod", "items", "traits", "effects", "npcs", "mutators", "innovative"],
   },
   {
     banner: "https://cdn.discordapp.com/attachments/453259227797127188/954336805212262446/2022-03-18_180414.png",
