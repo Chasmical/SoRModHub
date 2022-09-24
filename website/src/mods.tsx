@@ -34,7 +34,7 @@ const list: ModProps[] = [
       </span>
     ),
     buttons: [
-      {type:"direct", link:"https://cdn.discordapp.com/attachments/453258186514890772/1022449982973935666/Sidis_resprite_project.spritepack"},
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453258186514890772/1023126744674340904/Sidis_resprite_project.spritepack"},
     ],
     tags: ["spritepack", "items", "objects", "npcs", "sprites", "innovative"],
   },
