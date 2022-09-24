@@ -108,14 +108,6 @@ const list: ModProps[] = [
     tags: ["mod", "cheats"],
   },
   {
-    title: "SOR Community's Hi-Res Overhaul (WIP)",
-    description: "Back before Abbysssal had fully figured out TK2D sprites, we had organized a community overhaul of Hi-Res sprites. This only replaces about 30-ish sprites so far, mostly items.",
-    buttons: [
-      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/878281486225264720/HiResOverhaul.spritepack"},
-    ],
-    tags: ["spritepack", "items", "sprites"],
-  },
-  {
     banner: "https://github.com/cf27n/FollowerPlus/blob/main/FollowerPlusIcon.png?raw=true",
     title: "FollowerPlus",
     description: "A small plugin that adds a few more interactive features to create a friendlier follower-oriented playstyle. Currently, it only adds enhanced follower inventory management.",
@@ -125,6 +117,23 @@ const list: ModProps[] = [
       {type:"direct", link:"https://github.com/cf27n/FollowerPlus/files/7767730/FollowerPlus_1.0.1-alpha.zip"},
     ],
     tags: ["mod", "npcs", "ui", "tweaks", "innovative"],
+  },
+  {
+    banner: "https://cdn.discordapp.com/attachments/1023252533826818119/1023258866928078878/logo.png",
+    title: "Lumi's Meme Soundpack",
+    description: "A soundpack that replaces most in-game sounds with memes and references to other games.",
+    buttons: [
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/819919642725187605/1023255047364169738/Lumis_meme_soundpack_v1.3.spritepack"},
+    ],
+    tags: ["spritepack", "sounds"],
+  },
+  {
+    title: "SOR Community's Hi-Res Overhaul (WIP)",
+    description: "Back before Abbysssal had fully figured out TK2D sprites, we had organized a community overhaul of Hi-Res sprites. This only replaces about 30-ish sprites so far, mostly items.",
+    buttons: [
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/878281486225264720/HiResOverhaul.spritepack"},
+    ],
+    tags: ["spritepack", "items", "sprites"],
   },
   {
     title: "SORCE - Streets of Rogue Civil Engineering",
