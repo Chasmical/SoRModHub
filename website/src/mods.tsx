@@ -76,12 +76,15 @@ const list: ModProps[] = [
     tags: ["mod", "items", "traits", "sounds"],
   },
   {
+    banner: "https://github.com/Freiling87/CCU/raw/master/CCU/Images/CCU_Large.png",
     title: "CCU",
     description: "Tons of tools for custom content design!",
     buttons: [
-      {type:"direct", link:"https://discord.com/channels/187414758536773632/453259227797127188/1007002994040127578"},
+      {type:"github", link:"https://github.com/Freiling87/CCU"},
+      {type:"gamebanana", link:"https://gamebanana.com/mods/380574"},
+      {type:"direct", link:"https://gamebanana.com/dl/846356"},
       ],
-    tags: ["innovative", "mod", "mutators", "npcs", "traits",], 
+    tags: ["mod", "mutators", "npcs", "traits", "innovative"], 
   },
   {
     banner: "https://images.gamebanana.com/img/ss/mods/60d3c4459febd.jpg",
@@ -127,12 +130,10 @@ const list: ModProps[] = [
     title: "SORCE - Streets of Rogue Civil Engineering",
     description: (<span>
       {"50+ city-related and visual effects mutators and a couple of shitty traits."}
-      <br/>
-      {"Note: Use the beta branch of RogueLibs - v3.5.0-beta.6 and update BepInEx to 5.4.19."}
     </span>),
     buttons: [
       {type:"github", link:"https://github.com/Freiling87/SORCE"},
-      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/973265315150589982/Streets_of_Rogue.zip"},
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/1021855777654329434/SORCE.dll"},
     ],
     tags: ["mod", "traits", "mutators", "effects", "objects", "npcs", "sounds", "tweaks", "other", "innovative"],
   },
