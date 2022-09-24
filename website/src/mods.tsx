@@ -105,40 +105,6 @@ const list: ModProps[] = [
     tags: ["mod", "cheats"],
   },
   {
-    banner: "https://github.com/Freiling87/Sorquol/blob/master/Sorquol/Images/Sorquol_512x512.png?raw=true",
-    title: "Sorquol - Streets of Rogue Quality of Life",
-    description: "Sorquol is a quality of life mod for the custom content editors. Right now, it's mainly hotkeys for the Chunk Editor.",
-    buttons: [
-      {type:"github", link:"https://github.com/Freiling87/Sorquol"},
-      {type:"gamebanana", link:"https://gamebanana.com/mods/335156"},
-      {type:"direct", link:"https://gamebanana.com/dl/691177"},
-    ],
-    tags: ["mod", "ui", "tweaks"],
-  },
-  {
-    title: "RogueLibs Test Module",
-    description: (
-      <span>
-        {"Adds 3 abilities, 9 items, 2 traits and 1 effect."}
-        <br/>
-        {"For testing purposes."}
-      </span>
-    ),
-    buttons: [
-      {type:"github", link:"https://github.com/SugarBarrel/RogueLibs"},
-      {type:"direct", link:"https://github.com/SugarBarrel/RogueLibs/releases/latest/download/RogueLibsCore.Test.dll"},
-    ],
-    tags: ["mod", "items", "abilities", "traits", "effects"],
-  },
-  {
-    title: "Sprites of Bune",
-    description: "Replaces only four sprites. Scary guns!",
-    buttons: [
-      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/876516669814616104/SpritesOfBune.spritepack"},
-    ],
-    tags: ["spritepack", "items", "sprites"],
-  },
-  {
     title: "SOR Community's Hi-Res Overhaul (WIP)",
     description: "Back before Abbysssal had fully figured out TK2D sprites, we had organized a community overhaul of Hi-Res sprites. This only replaces about 30-ish sprites so far, mostly items.",
     buttons: [
@@ -156,6 +122,19 @@ const list: ModProps[] = [
       {type:"direct", link:"https://github.com/cf27n/FollowerPlus/files/7767730/FollowerPlus_1.0.1-alpha.zip"},
     ],
     tags: ["mod", "npcs", "ui", "tweaks", "innovative"],
+  },
+  {
+    title: "SORCE - Streets of Rogue Civil Engineering",
+    description: (<span>
+      {"50+ city-related and visual effects mutators and a couple of shitty traits."}
+      <br/>
+      {"Note: Use the beta branch of RogueLibs - v3.5.0-beta.6 and update BepInEx to 5.4.19."}
+    </span>),
+    buttons: [
+      {type:"github", link:"https://github.com/Freiling87/SORCE"},
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/973265315150589982/Streets_of_Rogue.zip"},
+    ],
+    tags: ["mod", "traits", "mutators", "effects", "objects", "npcs", "sounds", "tweaks", "other", "innovative"],
   },
   {
     title: "a Ton of Mutators (aToM)",
@@ -195,6 +174,40 @@ const list: ModProps[] = [
     tags: ["mod", "mutators"],
   },
   {
+    banner: "https://github.com/Freiling87/Sorquol/blob/master/Sorquol/Images/Sorquol_512x512.png?raw=true",
+    title: "Sorquol - Streets of Rogue Quality of Life",
+    description: "Sorquol is a quality of life mod for the custom content editors. Right now, it's mainly hotkeys for the Chunk Editor.",
+    buttons: [
+      {type:"github", link:"https://github.com/Freiling87/Sorquol"},
+      {type:"gamebanana", link:"https://gamebanana.com/mods/335156"},
+      {type:"direct", link:"https://gamebanana.com/dl/691177"},
+    ],
+    tags: ["mod", "ui", "tweaks"],
+  },
+  {
+    title: "RogueLibs Test Module",
+    description: (
+      <span>
+        {"Adds 3 abilities, 9 items, 2 traits and 1 effect."}
+        <br/>
+        {"For testing purposes."}
+      </span>
+    ),
+    buttons: [
+      {type:"github", link:"https://github.com/SugarBarrel/RogueLibs"},
+      {type:"direct", link:"https://github.com/SugarBarrel/RogueLibs/releases/latest/download/RogueLibsCore.Test.dll"},
+    ],
+    tags: ["mod", "items", "abilities", "traits", "effects"],
+  },
+  {
+    title: "Sprites of Bune",
+    description: "Replaces only four sprites. Scary guns!",
+    buttons: [
+      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/876516669814616104/SpritesOfBune.spritepack"},
+    ],
+    tags: ["spritepack", "items", "sprites"],
+  },
+  {
     banner: "https://cdn.discordapp.com/attachments/453259227797127188/954336805212262446/2022-03-18_180414.png",
     title: "Abbysssal's Paint.net SpritePack",
     description: "Replaces all item sprites in the game with the ones carefully drawn by hand by a professional*, in Paint.net. (* ᵖʳᵒᶠᵉˢˢᶦᵒⁿᵃˡ ᵖʳᵒᵍʳᵃᵐᵐᵉʳ)",
@@ -211,19 +224,6 @@ const list: ModProps[] = [
     ],
     tags: ["mod", "abilities"],
   },
-  {
-    title: "SORCE - Streets of Rogue Civil Engineering",
-    description: (<span>
-      {"50+ city-related and visual effects mutators and a couple of shitty traits."}
-      <br/>
-      {"Note: Use the beta branch of RogueLibs - v3.5.0-beta.6 and update BepInEx to 5.4.19."}
-    </span>),
-    buttons: [
-      {type:"github", link:"https://github.com/Freiling87/SORCE"},
-      {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/973265315150589982/Streets_of_Rogue.zip"},
-    ],
-    tags: ["mod", "traits", "mutators", "effects", "objects", "npcs", "sounds", "tweaks", "other", "innovative"],
-  }
 ];
 
 export default list;
