@@ -3,7 +3,7 @@ import { Props as ModProps } from './components/ShowcaseItem';
 
 const list: ModProps[] = [
   {
-    banner: "https://github.com/SugarBarrel/RogueLibs/blob/main/img/RogueLibs.png?raw=true",
+    banner: "https://cdn.discordapp.com/attachments/1026543284845297754/1026548639591563384/RLLogo.png",
     title: "RogueLibs",
     description: "A really important library that is required for almost all mods. A must-have.",
     buttons: [
