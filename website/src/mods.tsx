@@ -78,7 +78,13 @@ const list: ModProps[] = [
   {
     banner: "https://github.com/Freiling87/CCU/raw/master/CCU/Images/CCU_Large.png",
     title: "CCU",
-    description: "Tons of tools for custom content design!",
+    description: (
+      <span>
+        {"Tons of tools for custom content design! Also requires "}
+        <a href="https://github.com/BlazingTwist/BTHarmonyUtils/releases/latest/download/BTHarmonyUtils.dll">BTHarmonyUtils.dll</a>
+        {" (put in both BepInEx/core and BepInEx/plugins)"}
+      </span>
+    ),
     buttons: [
       {type:"github", link:"https://github.com/Freiling87/CCU"},
       {type:"gamebanana", link:"https://gamebanana.com/mods/380574"},
@@ -137,9 +143,13 @@ const list: ModProps[] = [
   },
   {
     title: "SORCE - Streets of Rogue Civil Engineering",
-    description: (<span>
-      {"50+ city-related and visual effects mutators and a couple of shitty traits."}
-    </span>),
+    description: (
+      <span>
+        {"50+ city-related and visual effects mutators and a couple of shitty traits. Also requires "}
+        <a href="https://github.com/BlazingTwist/BTHarmonyUtils/releases/latest/download/BTHarmonyUtils.dll">BTHarmonyUtils.dll</a>
+        {" (put in both BepInEx/core and BepInEx/plugins)"}
+      </span>
+    ),
     buttons: [
       {type:"github", link:"https://github.com/Freiling87/SORCE"},
       {type:"direct", link:"https://cdn.discordapp.com/attachments/453259227797127188/1021855777654329434/SORCE.dll"},
