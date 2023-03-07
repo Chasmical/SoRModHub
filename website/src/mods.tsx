@@ -26,7 +26,7 @@ const list: ModProps[] = [
     tags: ["mod", "spritepack", "sprites", "ui"],
   },
   {
-    banner: "https://cdn.discordapp.com/attachments/766890919768621058/852479372656640000/SRP.png",
+    banner: "https://media.discordapp.net/attachments/766890919768621058/1044975812534870126/SRPObj.png",
     title: "Sidi's Resprite Project",
     description: (
       <span>
