@@ -30,7 +30,7 @@ const list: ModProps[] = [
     title: "Sidi's Resprite Project",
     description: (
       <span>
-        {"Replaces vanilla sprites (ALL items, some objects and MOST characters) with more bulky and prettier ones."}
+        {"Replaces vanilla sprites (ALL items, ALL objects and ALL characters) with more bulky and prettier ones."}
       </span>
     ),
     buttons: [
