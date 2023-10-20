@@ -26,6 +26,15 @@ const list: ModProps[] = [
     tags: ["mod", "spritepack", "sprites", "ui"],
   },
   {
+    banner: "https://cdn.discordapp.com/attachments/433748059172896769/1164805637818028032/image.png",
+    title: "Better Combat",
+    description: "A mod that improves how combat works on npcs, and weapons.",
+    buttons: [
+      {type:"github", link:"https://github.com/ConekoDaFluffy/Better-Combat/releases/tag/Releases"},
+    ],
+    tags: ["mod", "npcs", "items", "innovative"]
+  },
+  {
     banner: "https://media.discordapp.net/attachments/766890919768621058/1044975812534870126/SRPObj.png",
     title: "Sidi's Resprite Project",
     description: (
